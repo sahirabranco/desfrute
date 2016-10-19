@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+/* Elementos fixos body, header,logo, nav, ul.menu, footer*/
+html { 
+background-color: darkolivegreen; 
+}
+
+body {
+	background-color:beige;
+	width:1024px;
+	height: 900px; 
+	margin: 30px auto;
+}
+header {
+	width: 202px;
+    height: 150px;
+    margin-right: 856px;
+	margin-left: 48px;
+}
+
+.logo {
+	width: 202px;
+    height: 150px;
+	margin-top: 9px;
+}
+
+nav {
+	
+	margin-top: -38px;
+    margin-left: 250px;
+	margin-right: 66px;
+}
+
+ul.menu li { 
+	display: inline;
+	margin-left:35px;	
+}
+
+ul li a {
+    
+	color: black; 
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+ul li a:hover{
+    color: darkolivegreen;
+}
+/* FIM Elementos fixos*/
+
+/* Cores do menu*/
+.cor_ver{
+    
+    color:#202f05;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    
+}
+
+/* Fim Cores do menu*/
+footer {
+	margin-top: 90px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    clear: both;
+}
+/* Elementos da Home*/
+
+.banner {
+	width: 905px;
+	margin-top: 24px;
+	margin-left: 50px
+}
+
+/* section */
+.sec_home {
+	margin-left: 50px;
+    margin-top: 60px;
+    margin-right: 538px;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*aside*/
+.foodtruck {
+	margin-left: 532px;
+    margin-top: -224px;
+}
+
+/*botão conheça*/
+.botao_rosa {
+    width: 210px;
+    height: 42px;
+    border-bottom-color: #da2d58;
+    background-color: #da2d58;
+    color: white;
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 243px;
+    border: 0;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+/*FIM Elementos da Home*/
+
+/*Elementos do Quem somos*/
+
+.titulo_centro {
+    text-align: -webkit-center;
+    background-color: goldenrod;
+    height: 50px;
+    width: 885px;
+    margin-left: 68px;
+    margin-right: 68px;
+    font-size: 30px;
+    padding-top: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.texto {
+    width: 761px;
+    margin-left: 136px;
+    margin-top: 64px;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.banner2 {
+    width: 905px;
+    margin-left: 7px;
+
+}
+/*FIM do Quem somos*/
+
+/*Elementos do Contatos*/
+
+.Contatos{
+    width: 378px;
+    height: 132px;
+    text-align: center;
+    margin-left: 68px;
+    border: 2px solid rgba(121, 121, 121, 0.92);
+    padding-bottom: 19px;
+    font-family: Helvetica, Arial, sans-serif;
+        
+}
+
+/*Area do formulário*/
+.formulario {
+    
+    width: 476px;
+    height: 444px;
+    margin-left: 480px;
+    margin-top: -525px;
+    font-family: Helvetica, Arial, sans-serif;
+
+  }
+
+.sub_titulo_h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:25px;
+}
+    
+.titulo_h3_center {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:25px;
+    text-align: center;
+}
+
+
+label{
+    margin-left: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:18px;
+    text-align: right;
+    width: 100px;
+    margin:5px 5px;
+    }
+
+input{
+    width:300px;
+    float: right;
+}
+
+.p_centralizado {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center
+}
+
+textarea{
+    width:300px;
+    float: right;
+    height: 200px;
+}
+
+.botao_dois {
+    width: 105px;
+    height: 32px;
+    border-bottom-color: #da2d58;
+    background-color: #da2d58;
+    color: white;
+    position: absolute;
+    margin-top: 136px;
+    margin-left: 9px;
+    border: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.img_contatos {
+    width: 380px;
+    height: 313px;
+    margin-left: 72px;
+    margin-top: 55px;
+}
+
+.paragrafo{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+.radio{
+    display: inline-flex;
+    width: 401px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+    margin-top: 0px
+}
+
+/*FIM dos Elementos do Contatos*/
+
+/*Elementos do Imprensa*/
+
+.img_imprensa{
+    margin-top: -40px;
+}
+
+.img_imprensa2{
+    margin-top: -539px;
+    margin-left: 500px;
+    
+}
+
+.text_imprensa{
+    margin-left: 75px;
+    width: 383px;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.titulo_tabela{
+    font-size: 29px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+/*FIM dos Elementos do Impresa*/
+
+/*Elementos do Cardápio*/
+
+.tbody{
+    width: 190px;
+    height: 366px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border: 3px solid rgba(12, 12, 12, 0.92);
+    border-radius: 30px;
+    text-align: center; 
+}
+
+.posicao_tabela1{
+    width: 190px;
+    height: 366px;
+    float: right;
+    margin:30px;  
+}
+
+
+.footer_posicao{
+    margin-top: 139px;
+    float: left;
+    margin-left: 340px;
+    
+}
+
+.titulo_inprensa{
+    margin-left: 77px;
+}
